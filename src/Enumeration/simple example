@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+enum color { RED, GREEN, BLUE };
+int main() {
+color c;
+c = RED;
+cout << c << endl; //Output - 0.
+return 0;
+}
