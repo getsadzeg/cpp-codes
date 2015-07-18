@@ -48,6 +48,5 @@ int main() {
                 if (v[i].getName()==countryname)
                     cout<<v[i].splittedArea()<<endl;
             }
-   // core1();
     return 0;
 }
