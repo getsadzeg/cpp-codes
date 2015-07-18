@@ -23,7 +23,7 @@ public:
         cout << Age << endl;
     }
 };
-void happy() {
+void func() {
     vector <Student> v;
     long long id;
     string name;
@@ -39,7 +39,7 @@ void happy() {
     cout << "Continue? (y/n)" << endl;
     cin >> ans;
     if(ans == 'y') {
-        happy();
+        func();
     }
     if(ans == 'n') {
         //system("cls"); //problem. don't working on linux. So on Windows it's working fine.
@@ -49,6 +49,6 @@ void happy() {
 }
 
 int main() {
-    happy();
+    func();
     return 0;
 }
