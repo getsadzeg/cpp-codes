@@ -4,7 +4,6 @@
 #include <regex>
 #include <cctype>
 #include <ctype.h>
-//#include <boost\regex.hpp>
 using namespace std;
 string mail;
 int counter = 0;
@@ -37,8 +36,8 @@ void valid3() {
 void valid4() {
 
 
-	/*boost::*/regex myRegex("[^a-zA-Z_.@-]+");
-	if (/*boost::*/regex_search(mail, myRegex)) {
+        regex myRegex("[^a-zA-Z_.@-]+");
+	if (regex_search(mail, myRegex)) {
 		bool regex = 0;
 	}
 	else counter += 1;
@@ -51,10 +50,6 @@ void regexvalid4() {
 	else valid4checker--;
 	}
 	if (valid4checker == mail.length() - 1) {
-	//counter += 1;
-		//
-	}
-	//cout << counter << endl;
 }
 void checking() {
 	if (counter == 4) cout << "Email Validated" << endl;
