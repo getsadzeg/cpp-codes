@@ -11,9 +11,6 @@ public:
         first = first1;
         second = second1;
         third = third1;
-//        if(isdigit(first1)) cout << "First number isn't getting the real number!" << endl;
-//        if(isdigit(second1)) cout << "Second number isn't getting the real number!" << endl;
-//        if(isdigit(third1)) cout << "Third number isn't getting the real number!" << endl;
     }
     int Perimeter(int first1,int second1,int third1) {
         return first1 + second1 + third1;
