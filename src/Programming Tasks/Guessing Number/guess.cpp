@@ -8,7 +8,6 @@ using namespace std;
 int main() {
 	srand(time(0));
 	int random = rand() % 1000;
-	//cout << random << endl; //fortesting
 	int trycounter = 0;
 	string usernumber;
 	Main:
