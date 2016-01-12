@@ -1,11 +1,9 @@
-//It's C++ style of struct(structures).
-
 #include <stdio.h>
 #include <iostream>
 using namespace std;
 struct Person {
-	const char *name;
-	const char *surname;
+	string name;
+	string surname;
 	int age;
 };
 void printinfo(struct Person x) {
